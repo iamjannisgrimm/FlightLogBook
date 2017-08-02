@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4F38411F31B5DE00C14C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F38401F31B5DE00C14C03 /* AppDelegate.swift */; };
+		AF4F38431F31B5DE00C14C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F38421F31B5DE00C14C03 /* ViewController.swift */; };
+		AF4F38461F31B5DE00C14C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4F38441F31B5DE00C14C03 /* Main.storyboard */; };
+		AF4F38491F31B5DE00C14C03 /* FlightLogBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF4F38471F31B5DE00C14C03 /* FlightLogBook.xcdatamodeld */; };
+		AF4F384B1F31B5DE00C14C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4F384A1F31B5DE00C14C03 /* Assets.xcassets */; };
+		AF4F384E1F31B5DE00C14C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4F384C1F31B5DE00C14C03 /* LaunchScreen.storyboard */; };
+		AF4F38591F31B5DF00C14C03 /* FlightLogBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F38581F31B5DF00C14C03 /* FlightLogBookTests.swift */; };
+		AF4F38641F31B5DF00C14C03 /* FlightLogBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F38631F31B5DF00C14C03 /* FlightLogBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4F38551F31B5DF00C14C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4F38351F31B5DE00C14C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4F383C1F31B5DE00C14C03;
+			remoteInfo = FlightLogBook;
+		};
+		AF4F38601F31B5DF00C14C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4F38351F31B5DE00C14C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4F383C1F31B5DE00C14C03;
+			remoteInfo = FlightLogBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF4F383D1F31B5DE00C14C03 /* FlightLogBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightLogBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4F38401F31B5DE00C14C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF4F38421F31B5DE00C14C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF4F38451F31B5DE00C14C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4F38481F31B5DE00C14C03 /* FlightLogBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlightLogBook.xcdatamodel; sourceTree = "<group>"; };
+		AF4F384A1F31B5DE00C14C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4F384D1F31B5DE00C14C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF4F384F1F31B5DE00C14C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4F38541F31B5DF00C14C03 /* FlightLogBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightLogBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4F38581F31B5DF00C14C03 /* FlightLogBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLogBookTests.swift; sourceTree = "<group>"; };
+		AF4F385A1F31B5DF00C14C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4F385F1F31B5DF00C14C03 /* FlightLogBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightLogBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4F38631F31B5DF00C14C03 /* FlightLogBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLogBookUITests.swift; sourceTree = "<group>"; };
+		AF4F38651F31B5DF00C14C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4F383A1F31B5DE00C14C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4F38511F31B5DF00C14C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4F385C1F31B5DF00C14C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4F38341F31B5DE00C14C03 = {
+			isa = PBXGroup;
+			children = (
+				AF4F383F1F31B5DE00C14C03 /* FlightLogBook */,
+				AF4F38571F31B5DF00C14C03 /* FlightLogBookTests */,
+				AF4F38621F31B5DF00C14C03 /* FlightLogBookUITests */,
+				AF4F383E1F31B5DE00C14C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4F383E1F31B5DE00C14C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F383D1F31B5DE00C14C03 /* FlightLogBook.app */,
+				AF4F38541F31B5DF00C14C03 /* FlightLogBookTests.xctest */,
+				AF4F385F1F31B5DF00C14C03 /* FlightLogBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4F383F1F31B5DE00C14C03 /* FlightLogBook */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F38401F31B5DE00C14C03 /* AppDelegate.swift */,
+				AF4F38421F31B5DE00C14C03 /* ViewController.swift */,
+				AF4F38441F31B5DE00C14C03 /* Main.storyboard */,
+				AF4F384A1F31B5DE00C14C03 /* Assets.xcassets */,
+				AF4F384C1F31B5DE00C14C03 /* LaunchScreen.storyboard */,
+				AF4F384F1F31B5DE00C14C03 /* Info.plist */,
+				AF4F38471F31B5DE00C14C03 /* FlightLogBook.xcdatamodeld */,
+			);
+			path = FlightLogBook;
+			sourceTree = "<group>";
+		};
+		AF4F38571F31B5DF00C14C03 /* FlightLogBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F38581F31B5DF00C14C03 /* FlightLogBookTests.swift */,
+				AF4F385A1F31B5DF00C14C03 /* Info.plist */,
+			);
+			path = FlightLogBookTests;
+			sourceTree = "<group>";
+		};
+		AF4F38621F31B5DF00C14C03 /* FlightLogBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F38631F31B5DF00C14C03 /* FlightLogBookUITests.swift */,
+				AF4F38651F31B5DF00C14C03 /* Info.plist */,
+			);
+			path = FlightLogBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4F383C1F31B5DE00C14C03 /* FlightLogBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4F38681F31B5DF00C14C03 /* Build configuration list for PBXNativeTarget "FlightLogBook" */;
+			buildPhases = (
+				AF4F38391F31B5DE00C14C03 /* Sources */,
+				AF4F383A1F31B5DE00C14C03 /* Frameworks */,
+				AF4F383B1F31B5DE00C14C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightLogBook;
+			productName = FlightLogBook;
+			productReference = AF4F383D1F31B5DE00C14C03 /* FlightLogBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF4F38531F31B5DF00C14C03 /* FlightLogBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4F386B1F31B5DF00C14C03 /* Build configuration list for PBXNativeTarget "FlightLogBookTests" */;
+			buildPhases = (
+				AF4F38501F31B5DF00C14C03 /* Sources */,
+				AF4F38511F31B5DF00C14C03 /* Frameworks */,
+				AF4F38521F31B5DF00C14C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4F38561F31B5DF00C14C03 /* PBXTargetDependency */,
+			);
+			name = FlightLogBookTests;
+			productName = FlightLogBookTests;
+			productReference = AF4F38541F31B5DF00C14C03 /* FlightLogBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF4F385E1F31B5DF00C14C03 /* FlightLogBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4F386E1F31B5DF00C14C03 /* Build configuration list for PBXNativeTarget "FlightLogBookUITests" */;
+			buildPhases = (
+				AF4F385B1F31B5DF00C14C03 /* Sources */,
+				AF4F385C1F31B5DF00C14C03 /* Frameworks */,
+				AF4F385D1F31B5DF00C14C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4F38611F31B5DF00C14C03 /* PBXTargetDependency */,
+			);
+			name = FlightLogBookUITests;
+			productName = FlightLogBookUITests;
+			productReference = AF4F385F1F31B5DF00C14C03 /* FlightLogBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4F38351F31B5DE00C14C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jannis Grimm";
+				TargetAttributes = {
+					AF4F383C1F31B5DE00C14C03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AF4F38531F31B5DF00C14C03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF4F383C1F31B5DE00C14C03;
+					};
+					AF4F385E1F31B5DF00C14C03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF4F383C1F31B5DE00C14C03;
+					};
+				};
+			};
+			buildConfigurationList = AF4F38381F31B5DE00C14C03 /* Build configuration list for PBXProject "FlightLogBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4F38341F31B5DE00C14C03;
+			productRefGroup = AF4F383E1F31B5DE00C14C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4F383C1F31B5DE00C14C03 /* FlightLogBook */,
+				AF4F38531F31B5DF00C14C03 /* FlightLogBookTests */,
+				AF4F385E1F31B5DF00C14C03 /* FlightLogBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4F383B1F31B5DE00C14C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4F384E1F31B5DE00C14C03 /* LaunchScreen.storyboard in Resources */,
+				AF4F384B1F31B5DE00C14C03 /* Assets.xcassets in Resources */,
+				AF4F38461F31B5DE00C14C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4F38521F31B5DF00C14C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4F385D1F31B5DF00C14C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4F38391F31B5DE00C14C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4F38491F31B5DE00C14C03 /* FlightLogBook.xcdatamodeld in Sources */,
+				AF4F38431F31B5DE00C14C03 /* ViewController.swift in Sources */,
+				AF4F38411F31B5DE00C14C03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4F38501F31B5DF00C14C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4F38591F31B5DF00C14C03 /* FlightLogBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4F385B1F31B5DF00C14C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4F38641F31B5DF00C14C03 /* FlightLogBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4F38561F31B5DF00C14C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4F383C1F31B5DE00C14C03 /* FlightLogBook */;
+			targetProxy = AF4F38551F31B5DF00C14C03 /* PBXContainerItemProxy */;
+		};
+		AF4F38611F31B5DF00C14C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4F383C1F31B5DE00C14C03 /* FlightLogBook */;
+			targetProxy = AF4F38601F31B5DF00C14C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF4F38441F31B5DE00C14C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4F38451F31B5DE00C14C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4F384C1F31B5DE00C14C03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4F384D1F31B5DE00C14C03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4F38661F31B5DF00C14C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF4F38671F31B5DF00C14C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4F38691F31B5DF00C14C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightLogBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jannisgrimm.FlightLogBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF4F386A1F31B5DF00C14C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightLogBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jannisgrimm.FlightLogBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF4F386C1F31B5DF00C14C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightLogBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jannisgrimm.FlightLogBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightLogBook.app/FlightLogBook";
+			};
+			name = Debug;
+		};
+		AF4F386D1F31B5DF00C14C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightLogBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jannisgrimm.FlightLogBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightLogBook.app/FlightLogBook";
+			};
+			name = Release;
+		};
+		AF4F386F1F31B5DF00C14C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlightLogBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jannisgrimm.FlightLogBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlightLogBook;
+			};
+			name = Debug;
+		};
+		AF4F38701F31B5DF00C14C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlightLogBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jannisgrimm.FlightLogBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlightLogBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4F38381F31B5DE00C14C03 /* Build configuration list for PBXProject "FlightLogBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4F38661F31B5DF00C14C03 /* Debug */,
+				AF4F38671F31B5DF00C14C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4F38681F31B5DF00C14C03 /* Build configuration list for PBXNativeTarget "FlightLogBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4F38691F31B5DF00C14C03 /* Debug */,
+				AF4F386A1F31B5DF00C14C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF4F386B1F31B5DF00C14C03 /* Build configuration list for PBXNativeTarget "FlightLogBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4F386C1F31B5DF00C14C03 /* Debug */,
+				AF4F386D1F31B5DF00C14C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF4F386E1F31B5DF00C14C03 /* Build configuration list for PBXNativeTarget "FlightLogBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4F386F1F31B5DF00C14C03 /* Debug */,
+				AF4F38701F31B5DF00C14C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF4F38471F31B5DE00C14C03 /* FlightLogBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF4F38481F31B5DE00C14C03 /* FlightLogBook.xcdatamodel */,
+			);
+			currentVersion = AF4F38481F31B5DE00C14C03 /* FlightLogBook.xcdatamodel */;
+			path = FlightLogBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF4F38351F31B5DE00C14C03 /* Project object */;
+}
